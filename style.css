@@ -134,3 +134,87 @@ main{
     cursor: pointer;
     transition: all .8s ;
 }
+.sectionFights{
+    height: 60vh;
+}
+.fightsBox{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-image: url(./img/Unos_cuantos_piquetitos.jpg);
+    background-repeat: no-repeat;
+    background-size: 90vw;
+    background-position: center;
+}
+.fightsTxt{
+    width: 25vw;
+    background-color: #E5DADA;
+    opacity: 0.6;
+    color: #D3CEBF;
+}
+.fightsTxt :hover{
+    color: white;
+    background-color: #840032;
+    opacity: 1.0;
+    cursor: pointer;
+    transition: all .8s ;
+}
+footer{
+    background-color: #002642;
+    font-family: "Averia Libre" , cursive;
+    font-size: 2vw;
+    color: #D3CEBF;
+}
+.museuBox{
+    height: 50vh;
+    display: flex;
+    align-items: flex-start;
+    background-image: url(./img/museuFridaKahlo.jpg);
+    position: relative;
+}
+.museuBox a{
+    text-decoration: none;
+    color: #D3CEBF;
+}
+.museuTxt{
+    height: 10vh;
+    width: 18vw;
+    background-color: #840032;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+}
+.fridaName{
+    position: absolute;
+    top: 20vh;
+    left: 30vw;
+}
+.fridaName img{
+    width: 18vw; 
+}
+.Name:hover{
+    background-color: #D3CEBF;
+    opacity: 0.6;
+    width: 50vw;
+    transition: all .8s;
+}
+.redes-container{
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 18vw;
+    background-color:#840032
+}
+.faceContainer{
+    width: 4vw;
+    border-radius: 50%;
+    background-color: #D3CEBF;
+}
+.redes-container img{
+    width: 3.5vw;
+}
